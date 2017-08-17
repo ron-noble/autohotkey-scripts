@@ -21,24 +21,25 @@ Return
 	Send, +{End}
 Return
 
+!I:: Send, {Up}
+!K:: Send, {Down}
+!J:: Send, {Left}
+!L:: Send, {Right}
+
++!I:: Send, {Shift down}{Up}
++!K:: Send, {Shift down}{Down}
++!J:: Send, {Shift down}{Left}
++!L:: Send, {Shift down}{Right}
+
+^!I:: Send, {Ctrl down}{Up}
+^!K:: Send, {Ctrl down}{Down}
+^!J:: Send, {Ctrl down}{Left}
+^!L:: Send, {Ctrl down}{Right}
 
 ;##### CMDR Hotkeys
-^!Y::
-	Send, goicon{enter}
-Return
 
-^!U::
-	Send, goipg{enter}
-Return
-
-^!I::
-	Send, gocommon{enter}
-Return
-
-^!O::
-	Send, gotest{enter}
-Return
-
-^!P::
-	Send, golocal{enter}
-Return
+#Y::Send, goicon{enter}
+#U::Send, goipg{enter}
+#I::Send, gocommon{enter}
+#O::Send, gotest{enter}
+#P::Send, golocal{enter}
