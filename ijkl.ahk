@@ -1,5 +1,3 @@
-#NoTrayIcon
-
 SetCapsLockState, AlwaysOff
 
 CapsLock & i::
